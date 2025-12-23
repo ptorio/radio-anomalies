@@ -1,0 +1,42 @@
+Para poder ejecutar estos programas Python hace falta:
+
+*Tener instalado Python 3
+*Tener instalado pip
+*Poner Python en el path de Windows, para que lo reconozca cuando se ejecute
+
+*Instalar numpy, con:
+	pip install numpy [enter]
+*Instalar pandas, con:
+	pip install pandas [enter]
+*Instalar plotly, con:
+	pip install plotly [enter]
+*Instalar ipywidgets, con:
+	pip install ipywidgets [enter]
+*Instalar anywidget, con:
+	pip install anywidget
+*Instalar Dash, con:
+	pip install dash [enter]
+------------------------------------------
+
+*Para ejecutar el programa de representacion por potencia,
+
+En Windows:
+	*Inicio -> escribir cmd [enter]
+	*En la ventana de comando, usar el comando cd para situarse en el directorio donde están juntos todos los archivos y programas
+	*En la ventana de comando escribir,
+		python represent_Power.py [longitud de ventana] "[archivo]" [enter]
+
+	 por ejemplo:
+		python represent_Power.py 60 "SMM 2024-06-7 al 8.csv" [enter]
+
+	*La instrucción completa para visualizar los resultados en otro puerto del navegador sería,
+		python represent_Power.py [longitud de ventana] "[archivo]" [puerto] [enter]
+
+	 Por ejemplo, en el puerto 8051:
+		python represent_Power.py 60 "SMM 2024-06-7 al 8.csv" 8051 [enter]
+	
+
+	
+*Cuando termina, se abre navegador de internet en la siguiente dirección:
+	http://127.0.0.1:[puerto] [enter], por ejemplo, si el puerto es 8050,
+	http://127.0.0.1:8050
