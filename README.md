@@ -2,7 +2,7 @@
 
 In order for the authorities of each country to automate surveillance tasks in the use of the radio spectrum, we present a Python app to represent radio anomalies from a dataset of received samples which monitors radio channels in time and frequency based on power detection. A receiver with an omnidirectional antenna records electric field amplitude samples on a set of channels belonging to the terrestrial or maritime mobile service. This method has been successfully used to detect unauthorized radio emissions.
 
-The app is "represent_Power.py"
+The app is "represent_Power.py".
 The app represents data from .csv files.
 "SMM 2024-06-7 al 8.csv" and "SMT 2024-09-09 al 10.csv" are data files that can be used to run the app with.
 
